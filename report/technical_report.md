@@ -1,12 +1,4 @@
 # TECHNICAL RESEARCH REPORT: AI-DRIVEN CYBER THREAT AWARENESS AND DETECTION PROTOTYPE
-
-**Course:** AI in Cyber Security Lab (`ENSP355`) — Unit 1 Mini Project  
-**Institution:** K.R. Mangalam University — Faculty of Engineering & Technology  
-**Faculty Evaluator:** Dr. Amar Saraswat  
-**Author / Student:** Cybersecurity Research Assistant  
-**Repository:** `ai-cybersecurity-unit1-mini-project-akshat`  
-**Date:** October 2026  
-
 ---
 
 ## 1. Problem Overview
