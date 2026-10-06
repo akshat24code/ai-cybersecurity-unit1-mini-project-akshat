@@ -1,0 +1,11 @@
+Category,Sample Count,Type,Metric (Recall/Accuracy),Misclassified Count,Notes
+Normal,37000,Legitimate Traffic,0.7122162162162162,10648,FPR = 28.78% (Blocked Users)
+Generic,18871,Cyber Attack,1.0,0,Detection Rate = 100.00%
+Exploits,11132,Cyber Attack,0.9969457420050305,34,Detection Rate = 99.69%
+Fuzzers,6062,Cyber Attack,0.9272517321016166,441,Detection Rate = 92.73%
+DoS,4089,Cyber Attack,0.9990217657128883,4,Detection Rate = 99.90%
+Reconnaissance,3496,Cyber Attack,0.9994279176201373,2,Detection Rate = 99.94%
+Analysis,677,Cyber Attack,0.9896602658788775,7,Detection Rate = 98.97%
+Backdoor,583,Cyber Attack,1.0,0,Detection Rate = 100.00%
+Shellcode,378,Cyber Attack,0.9947089947089947,2,Detection Rate = 99.47%
+Worms,44,Cyber Attack,1.0,0,Detection Rate = 100.00%

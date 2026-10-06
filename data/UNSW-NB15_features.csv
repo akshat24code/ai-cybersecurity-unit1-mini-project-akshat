@@ -1,0 +1,45 @@
+No.,Name,Type,Description,Group
+1,dur,Float,Record total duration,Basic
+2,proto,Categorical,Transaction protocol (e.g. tcp udp icmp),Basic
+3,service,Categorical,App service (e.g. http ftp smtp dns ssh),Basic
+4,state,Categorical,State and its dependent protocol (e.g. FIN INT CON),Basic
+5,spkts,Integer,Source to destination packet count,Basic
+6,dpkts,Integer,Destination to source packet count,Basic
+7,sbytes,Integer,Source to destination transaction bytes,Basic
+8,dbytes,Integer,Destination to source transaction bytes,Basic
+9,rate,Float,Packets per second rate,Basic
+10,sttl,Integer,Source to destination time to live value,Basic
+11,dttl,Integer,Destination to source time to live value,Basic
+12,sload,Float,Source bits per second,Content
+13,dload,Float,Destination bits per second,Content
+14,sloss,Integer,Source packets retransmitted or dropped,Content
+15,dloss,Integer,Destination packets retransmitted or dropped,Content
+16,sinpkt,Float,Source interpacket arrival time (ms),Time
+17,dinpkt,Float,Destination interpacket arrival time (ms),Time
+18,sjit,Float,Source jitter (ms),Time
+19,djit,Float,Destination jitter (ms),Time
+20,swin,Integer,Source TCP window advertisement value,Content
+21,stcpb,Integer,Source TCP base sequence number,Content
+22,dtcpb,Integer,Destination TCP base sequence number,Content
+23,dwin,Integer,Destination TCP window advertisement value,Content
+24,tcprtt,Float,TCP round trip time (synack + ackdat),Time
+25,synack,Float,TCP SYN to SYN-ACK time (ms),Time
+26,ackdat,Float,TCP SYN-ACK to ACK time (ms),Time
+27,smean,Integer,Mean packet size transmitted by source,Content
+28,dmean,Integer,Mean packet size transmitted by destination,Content
+29,trans_depth,Integer,Pipeline depth of HTTP request/response,Content
+30,response_body_len,Integer,Actual uncompressed content length transferred from server,Content
+31,ct_srv_src,Integer,No. of connections that contain same service and source address in 100 connections,Generated
+32,ct_state_ttl,Integer,No. of connections for specific state according to TTL values,Generated
+33,ct_dst_ltm,Integer,No. of connections of same destination address in 100 connections,Generated
+34,ct_src_dport_ltm,Integer,No. of connections of same source address and destination port in 100 connections,Generated
+35,ct_dst_sport_ltm,Integer,No. of connections of same destination address and source port in 100 connections,Generated
+36,ct_dst_src_ltm,Integer,No. of connections of same source and destination address in 100 connections,Generated
+37,is_ftp_login,Binary,1 if FTP session logged in with password,Generated
+38,ct_ftp_cmd,Integer,No of flow commands in FTP session,Generated
+39,ct_flw_http_mthd,Integer,No. of flows that has HTTP methods like GET and POST,Generated
+40,ct_src_ltm,Integer,No. of connections of same source address in 100 connections,Generated
+41,ct_srv_dst,Integer,No. of connections of same service and destination address in 100 connections,Generated
+42,is_sm_ips_ports,Binary,1 if source and destination IP/ports are equal,Generated
+43,attack_cat,Categorical,Name of cyber threat category (Exploits DoS Generic etc.),Target Metadata
+44,label,Binary,0 for normal traffic 1 for attack traffic,Target Binary

@@ -1,0 +1,24 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (keep git repository lightweight, datasets handled via data/ README or local)
+# data/*.csv
+
+# Output models and large binaries
+outputs/*.joblib
+outputs/*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE / OS specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
